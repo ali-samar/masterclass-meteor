@@ -1,0 +1,23 @@
+<template name="app">
+    <div class="container">
+        <div class="header clearfix">
+            <nav>
+                <ul class="nav nav-pills pull-right">
+                    <li class="active"><a href="#">Home</a></li>
+                </ul>
+            </nav>
+            <h3 class="text-muted">Comptes entre pot</h3>
+        </div>
+        {{> liste_projets}}
+        {{> formulaire_creation_projet}}
+        {{> liste_utilisateur}}
+        {{> recap_depenses}}
+        {{> bilan}}
+        {{> equilibre}}
+        {{> formulaire_saisie_utilisateur}}
+        {{> formulaire_saisie_depense}}
+        <footer class="footer">
+            <p>Meteor 1.3</p>
+        </footer>
+    </div>
+</template>
